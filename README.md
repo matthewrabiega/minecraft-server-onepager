@@ -85,14 +85,15 @@ git clone https://github.com/deinusername/minecraft-server-onepager.git
 ## 📂 Verzeichnisstruktur
 ```
 ├── index.html        # Hauptdatei der Webseite
-├── assets/
-│   ├── css/
-│   │   └── style.css # Styling der Webseite
-│   ├── js/
-│   │   └── script.js # JavaScript für Interaktionen
-│   └── img/          # Bilder, Logos, Avatare
+├── assets/           # Ressourcen für die Webseite
+│   ├── css/          # CSS-Dateien für das Styling
+│   │   └── style.css # Hauptstyling der Webseite
+│   ├── font/         # Schriftarten
+│   ├── img/          # Bilder, Logos, Avatare
+│   └── js/           # JavaScript-Dateien
+│       └── script.js # Hauptskript für Interaktionen
 ├── LICENSE           # Lizenzinformationen
-└── README.md         # Diese Dokumentation
+└── README.md         # Dokumentation des Projekts
 ```
 
 ---

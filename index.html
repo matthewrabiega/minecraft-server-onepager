@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- 
+
+Copyright © 2025 Matthew Rabiega (TheVelu). Alle Rechte vorbehalten.
+
+Dieses Template ist kostenlos für den persönlichen und nicht-kommerziellen Gebrauch.  
+Änderungen für eigene Projekte sind erlaubt.  
+Das erneute Hochladen, die Verbreitung oder der Verkauf – auch in veränderter Form – ist ohne ausdrückliche Zustimmung untersagt.  
+Das Copyright im Footer muss in allen abgeleiteten Werken erhalten bleiben.
+
+Kontakt: hej@velurapictures.de
+
+-->
+
+<head>
+    <title>Minecraft Servername | Willkommen</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matthew (TheVelu)" />
+    <meta name="description"
+        content="Minecraft Server Onepager - Alle Informationen zu deinem Server auf einer Seite" />
+    <meta name="publisher" content="Your Name">
+    <meta name="language" content="German">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <img src="/assets/img/logo.png" alt="Server Logo" class="server-logo" />
+            <h1>Willkommen auf unserem Minecraft Server!</h1>
+            <p>Spiele mit deinen Freunden auf einem der besten Server Deutschlands.</p>
+            <div class="server-ip-container">
+                <input type="text" id="serverIp" value="play.deinserver.de" readonly class="server-ip-input" 
+                    onclick="this.blur()" />
+                <button onclick="copyServerIp()" class="copy-ip-btn">Copy <i class="fa-solid fa-copy"
+                        style="font-size: 15px;"></i></button>
+            </div>
+            <div class="social-media-icons">
+                <a href="ts3server://deinetsipadresse" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-teamspeak" style="font-size: 20px;"></i>
+                </a>
+                <a href="https://www.discord.gg/dejxvcwWR6" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-discord" style="font-size: 20px;"></i>
+                </a>
+                <a href="https://www.youtube.com/velurapictures" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-youtube" style="font-size: 20px;"></i>
+                </a>
+                <a href="https://www.tiktok.com/velurapictures" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-tiktok" style="font-size: 20px;"></i>
+                </a>
+            </div>
+        </div>
+        <div id="server-popup" class="popup hidden">
+            <button id="close-popup" class="close-btn">&times;</button>
+            <div class="server-info">
+                <img id="server-icon" src="/assets/img/server.png" alt="Server Icon" />
+                <div>
+                    <h3 id="server-name">Minecraft Servername</h3>
+                    <p id="server-status">Spieler: <span id="player-count">0</span> / <span id="max-players">0</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="toggle-popup" class="popup-toggle"><i class="fa-solid fa-server"></i></div>
+    </header>
+    <nav id="navbar">
+        <ul class="nav-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="nav-logo">
+                <a href="#header">
+                    <img src="/assets/img/logo.png" alt="Server Logo" />
+                </a>
+            </li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#features">Features</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="image">
+                    <img src="assets/img/about.png" alt="Über unseren Server" />
+                </div>
+                <div class="text">
+                    <h2>Über unseren Server</h2>
+                    <p>
+                        Erfahre alles über unsere Spielwelt, unsere Community und unsere Mission. Wir bieten
+                        einzigartige Spielerlebnisse, eine aktive Community und eine sichere Umgebung für alle
+                        Minecraft-Fans.
+                    </p>
+                    <div class="buttons">
+                        <a href="#team" class="btn"><i class="fa-solid fa-handshake-angle"></i> Mitwirken</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="top" class="section">
+            <div class="content-container">
+                <h2 class="section-title">Unsere TOP 3 SPIELMODULE</h2>
+                <div class="podium">
+                    <div class="top-box">
+                        <div class="placement">TOP 3</div>
+                        <div class="game-mode">
+                            <img src="/assets/img/modi1.png" alt="Spielmodus 3" />
+                            <div class="game-mode-info">
+                                <h3>SKY WARS</h3>
+                                <p>Ein actiongeladener Spielmodus, bei dem Spieler auf schwebenden Inseln starten,
+                                    Ressourcen sammeln und strategisch kämpfen, um der letzte Überlebende zu sein.</p>
+                                <a href="" class="more-btn"> <i class="fa-solid fa-square-poll-vertical"></i> VOTE </a>
+                            </div>
+                            <span class="mode-name">SKY WARS</span>
+                        </div>
+                    </div>
+                    <div class="top-box higher">
+                        <div class="placement">TOP 1</div>
+                        <div class="game-mode">
+                            <img src="/assets/img/modi1.png" alt="Spielmodus 1" />
+                            <div class="game-mode-info">
+                                <h3>BEDWARS</h3>
+                                <p>Ein strategischer Spielmodus, in dem Teams ihre Betten verteidigen, Ressourcen
+                                    sammeln und Gegner eliminieren, um den Sieg zu erringen.</p>
+                                <a href="" class="more-btn"> <i class="fa-solid fa-square-poll-vertical"></i> VOTE </a>
+                            </div>
+                            <span class="mode-name">BEDWARS</span>
+                        </div>
+                    </div>
+                    <div class="top-box">
+                        <div class="placement">TOP 2</div>
+                        <div class="game-mode">
+                            <img src="/assets/img/modi1.png" alt="Spielmodus 2" />
+                            <div class="game-mode-info">
+                                <h3>CITY BUILD</h3>
+                                <p>Ein kreativer Modus, bei dem Spieler Städte erschaffen, Grundstücke bebauen und
+                                    Handel mit anderen betreiben können.</p>
+                                <a href="" class="more-btn"> <i class="fa-solid fa-square-poll-vertical"></i> VOTE </a>
+                            </div>
+                            <span class="mode-name">CITY BUILD</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="below-text">Hier findest du die besten Spielmodi, die wir zu bieten haben. Probiere sie aus
+                    und habe Spaß!</p>
+            </div>
+        </section>
+        <section id="team" class="section">
+            <div class="container">
+                <h2>Unser Team</h2>
+                <p class="team-description">
+                    Lerne die Menschen kennen, die hinter dem Server stehen. Wir sind eine leidenschaftliche
+                    Gemeinschaft, die das Spielerlebnis einzigartig macht.
+                </p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>TheVelu</h3>
+                        <span class="badge-admin">Administrator</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>Spieler 2</h3>
+                        <span class="badge-supporter">Supporter</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>Spieler 3</h3>
+                        <span class="badge-supporter">Supporter</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>Spieler 4</h3>
+                        <span class="badge-developer">Developer</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>Spieler 5</h3>
+                        <span class="badge-builder">Builder</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://crafatar.com/avatars/4927ba2e-27ba-480b-a092-188572759b90?size=100&overlay"
+                            alt="Spieler Kopf" />
+                        <h3>Spieler 6</h3>
+                        <span class="badge-builder">Builder</span>
+                    </div>
+                </div>
+                <a href="#apply" class="btn-apply"> <i class="fa fa-paper-plane"></i> Jetzt Bewerben </a>
+            </div>
+        </section>
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="feature-title">Features</h2>
+                <div class="feature-row">
+                    <div class="feature-image">
+                        <img src="assets/img/bg2.png" alt="Feature 1" />
+                        <div class="feature-label"><i class="fa-solid fa-server"></i> PERFORMANCE</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>High Performance</h3>
+                        <p>
+                            Genieße ein reibungsloses Spielerlebnis auf einem leistungsstarken Server! Unsere optimierte
+                            Infrastruktur sorgt für geringe Latenz, stabile Verbindungen und eine hohe Verfügbarkeit,
+                            selbst bei vielen
+                            Spielern. So kannst du dich voll und ganz auf das Gameplay konzentrieren.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-row reverse">
+                    <div class="feature-image">
+                        <img src="assets/img/bg3.png" alt="Feature 2" />
+                        <div class="feature-label"><i class="fa-solid fa-puzzle-piece"></i> CONTENT</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Eigener Content</h3>
+                        <p>
+                            Erlebe exklusive Inhalte, die du nur auf unserem Server findest! Von einzigartigen Spielmodi
+                            und selbst gestalteten Maps bis hin zu speziellen Plugins – unser Server bietet dir ein
+                            Spielerlebnis, das es
+                            nirgendwo sonst gibt. Lass dich von kreativen Ideen und neuen Herausforderungen begeistern.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-row">
+                    <div class="feature-image">
+                        <img src="assets/img/bg4.png" alt="Feature 3" />
+                        <div class="feature-label"><i class="fa-solid fa-comments"></i> COMMUNITY</div>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Starke Community</h3>
+                        <p>
+                            Werde Teil einer aktiven und hilfsbereiten Minecraft-Community! Tausche dich mit anderen
+                            Spielern aus, nimm an spannenden Events teil und finde neue Freunde, mit denen du gemeinsam
+                            Abenteuer erleben kannst.
+                            Unsere Community ist freundlich, kreativ und steht dir jederzeit mit Tipps und Unterstützung
+                            zur Seite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="banner-section">
+        <div class="banner">
+            <div class="banner-item" id="banner-item">
+                <p>📢 Trete unserem <strong>Discord</strong> bei: <a href="https://discord.gg/yourlink"
+                        target="_blank">Klick mich!</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="logo">
+                <img src="/assets/img/logo.png" alt="Server Logo" />
+            </div>
+            <h1 class="server-name">Minecraft Servername</h1>
+            <div class="socials">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="impress">
+                <a href="/impressum.html">IMPRESSUM</a>
+            </div>
+            <div class="credits">
+                <p>Made with <i class="fas fa-heart fa-beat" style="color: rgb(255, 255, 255); margin-right: 2px;"></i>
+                    by Matthew (TheVelu)</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/38450d4d45.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

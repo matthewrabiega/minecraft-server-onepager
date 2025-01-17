@@ -103,10 +103,9 @@ Dieses Template ist kostenlos für den persönlichen Gebrauch verfügbar. Änder
 ---
 
 ## 📧 Kontakt - Bei Fragen oder Anfragen.
-
-Discord: **einfachmatthew**
-Discord-Server: **discord.gg/dejxvcwWR6**
-Mail: **hej@velurapictures.de**
+- Discord: **einfachmatthew**
+- Discord-Server: **discord.gg/dejxvcwWR6**
+- Mail: **hej@velurapictures.de**
 
 ---
 

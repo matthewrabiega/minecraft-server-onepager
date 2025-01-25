@@ -1,4 +1,4 @@
-# Minecraft Server Onepager Template
+# Minecraft Server Onepager Template - by Matty (TheVelu)
 
 Dieses Repository enthält ein modernes und vollständig anpassbares **Onepager-Template** für Minecraft-Server. Es ist einfach zu bearbeiten und bietet eine Vielzahl an Funktionen, um deinen Server professionell zu präsentieren.
 
@@ -78,14 +78,14 @@ git clone https://github.com/deinusername/minecraft-server-onepager.git
 - Nachrichten für die rotierenden Banner in `script.js` anpassen:
   ```javascript
   const banners = [
-      `<p>📢 Trete unserem <strong>Discord</strong> bei: <a href="https://discord.gg/link">Klick mich!</a></p>`,
-      `<p>🎙️ Verbinde dich mit unserem <strong>Teamspeak</strong>: <a href="ts3server://deineTSip">Klick mich!</a></p>`
+      `<p>🔔 Trete unserem <strong>Discord</strong> bei: <a href="https://discord.gg/link">Klick mich!</a></p>`,
+      `<p>🎤 Verbinde dich mit unserem <strong>Teamspeak</strong>: <a href="ts3server://deineTSip">Klick mich!</a></p>`
   ];
   ```
 
 ---
 
-## 📂 Verzeichnisstruktur
+## 🗂 Verzeichnisstruktur
 ```
 ├── index.html        # Hauptdatei der Webseite
 ├── assets/           # Ressourcen für die Webseite
@@ -101,16 +101,16 @@ git clone https://github.com/deinusername/minecraft-server-onepager.git
 
 ---
 
-## 📜 Lizenz
+## 📋 Lizenz
 Dieses Template ist kostenlos für den persönlichen Gebrauch verfügbar. Änderungen sind erlaubt, jedoch dürfen das erneute Hochladen, die Verbreitung oder der Verkauf – auch in veränderter Form – nur mit ausdrücklicher Zustimmung des Autors erfolgen. Das Copyright im Footer muss erhalten bleiben.
 
 ---
 
 ## 📧 Kontakt - Bei Fragen oder Anfragen.
-- Discord: **einfachmatthew**
-- Discord-Server: **https://discord.gg/dejxvcwWR6**
-- Mail: **hej@velurapictures.de**
+- Discord: **[https://discord.gg/HcqKn7CVN5](https://discord.gg/HcqKn7CVN5)**
+  - Dort gibt es Support, Möglichkeiten zur Unterstützung und Updates wie Changelogs oder neue Entwicklungen.
 
 ---
 
 Viel Spaß beim Anpassen und Präsentieren deines Minecraft-Servers! 🚀
+

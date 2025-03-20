@@ -6,71 +6,62 @@
 
 ---
 
-![Webbanner](assets/img/github.jpg)
+<p align="center">
+  <img src="assets/img/github.jpg" alt="GitBanner" width="100%">
+</p>
 
-**Ein minimalistisches und einfach anpassbares Onepager-Template für Minecraft-Server.**  
-Ideal für eine schnelle Präsentation deines Servers mit IP, Features und Teamübersicht.
+Ein schlankes und modernes Onepager-Template für Minecraft-Server. 🏗️ Einfach einzurichten, flexibel anpassbar und perfekt, um deinen Server ansprechend zu präsentieren.
 
 ---
 
 ## 📌 Demo
-🔗 **[Live-Demo ansehen](http://demo01.pengu-network.de)**
+🔗 [Live-Demo ansehen](http://demo01.pengu-network.de)
 
 ---
 
 ## 📥 Installation
 
-1. **Repository klonen oder herunterladen**
-   ```bash
-   git clone https://github.com/DEIN-USERNAME/minecraft-server-onepager.git
-   cd minecraft-server-onepager
-   ```
+```bash
+git clone https://github.com/matthewrabiega/minecraft-server-onepager.git
+cd minecraft-server-onepager
+```
 
-2. **Auf einen Webserver hochladen**  
-   - Entpacke die Dateien und lade sie auf deinen Webserver.
-   - Falls nötig, passe `index.html`, `style.css` und `script.js` an.
-
-3. **Fertig!** 🚀 Deine Webseite ist nun online.
+### ⚙️ Einrichtung
+- 📂 Entpacke die Dateien und lade sie auf deinen Webserver.
+- 🎨 Falls nötig, passe `index.html`, `style.css` und `script.js` an.
+- ✅ Nach dem Hochladen ist die Seite direkt einsatzbereit.
 
 ---
 
 ## 🎨 Anpassung
 
-### 1️⃣ **Grundlegende Änderungen**
-Öffne die Datei **`index.html`** und passe folgende Elemente an:
-- **Servername & Beschreibung** (`<title>`, `<h1>`, `<p>`)
-- **Server-IP** (`play.deinserver.de`)
-- **Links zu Discord, YouTube, TikTok** (im `<a>`-Tag)
-- **Server-Features & Spielmodi** (`<section id="top">`)
+### 📝 HTML (index.html)
+- **Servername & Beschreibung**: `<title>`, `<h1>`, `<p>`
+- **Server-IP**: `play.deinserver.de`
+- **Social-Media-Links**: Discord, YouTube, TikTok
+- **Spielmodi & Features**: `<section id="top">`
 
-### 2️⃣ **Design & Farben**
-Ändere die Farben in **`style.css`**  
-📄 Datei: `assets/css/style.css`  
-- Hauptfarbe: `--primary-color`
-- Hintergrundfarbe: `--background-color`
-- Schriftarten: `font-family: 'Roboto'`
+### 🎨 Design (style.css)
+- **Hauptfarbe**: `--primary-color`
+- **Hintergrundfarbe**: `--background-color`
+- **Schriftart**: `font-family: 'Roboto'`
 
-### 3️⃣ **Logo & Banner**
-- **Logo ersetzen:**  
-  Datei **`assets/img/logo.png`** austauschen.
-- **Banner ändern:**  
-  Datei **`assets/img/webbanner.png`** ersetzen.
+### 🖼️ Medien
+- **Logo ersetzen**: Datei `assets/img/logo.png`
 
-### 4️⃣ **JavaScript-Funktionen**
-📄 Datei: `assets/js/script.js`  
-- **IP-Kopierfunktion:** `copyServerIp()`
-- **Serverstatus anzeigen:** `loadServerData("play.deinserver.de")`
+### ⚙️ JavaScript (script.js)
+- **IP-Kopierfunktion**: `copyServerIp()`
+- **Serverstatus-Anzeige**: `loadServerData("play.deinserver.de")`
 
 ---
 
 ## 📞 Support & Kontakt
-Hast du Fragen oder benötigst Support? Trete unserem Discord-Server bei!  
-🔗 **[Discord](https://discord.gg/HcqKn7CVN5)**
+Hast du Fragen oder benötigst Hilfe? ✉️ Trete unserem Discord-Server bei klicke auf [beitreten](https://discord.gg/HcqKn7CVN5)
 
 ---
 
 ## 📜 Lizenz
-**© 2025 Matthew Rabiega (TheVelu).**  
-Nur für private und nicht-kommerzielle Nutzung.  
-**Verkauf & erneutes Hochladen verboten!**
+© 2025 **Matthew Rabiega (TheVelu)**  
+🔒 Dieses Template ist für den privaten und nicht-kommerziellen Gebrauch vorgesehen.  
+🚫 Verkauf oder erneutes Hochladen ist nicht gestattet.
 

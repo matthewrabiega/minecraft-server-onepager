@@ -1,4 +1,4 @@
-# 🛠 Minecraft Server Webseite
+# 🛠 Minecraft Server Onepager
 
 <p align="center">
   <img src="assets/img/logo.png" alt="Server Logo" width="150">

@@ -1,133 +1,76 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
+# 🛠 Minecraft Server Onepager
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/matty/minecraft-server-onepager-template">
-    <img src="assets/img/logo.png" alt="Logo" width="120" height="120">
-  </a>
-
-  <h3 align="center">Minecraft Server Onepager Template</h3>
-
-  <p align="center">
-    Ein modernes, anpassbares Template für Minecraft-Server.
-    <br />
-    <a href="https://demo01.pengu-network.de/">Live Demo</a>
-    ●
-    <a href="https://discord.gg/HcqKn7CVN5">Fehler melden</a>
-    ●
-    <a href="https://discord.gg/HcqKn7CVN5">Feature anfragen</a>
-  </p>
-</div>
+<p align="center">
+  <img src="assets/img/logo.png" alt="Server Logo" width="150">
+</p>
 
 ---
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Inhaltsverzeichnis</summary>
-  <ol>
-    <li>
-      <a href="#über-das-projekt">Über das Projekt</a>
-      <ul>
-        <li><a href="#technologien">Technologien</a></li>
-      </ul>
-    </li>
-    <li><a href="#erste-schritte">Erste Schritte</a></li>
-    <li><a href="#verwendung">Verwendung</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#lizenz">Lizenz</a></li>
-    <li><a href="#kontakt">Kontakt</a></li>
-  </ol>
-</details>
+![Webbanner](assets/img/webbanner.png)
+
+**Ein minimalistisches und einfach anpassbares Onepager-Template für Minecraft-Server.**  
+Ideal für eine schnelle Präsentation deines Servers mit IP, Features und Teamübersicht.
 
 ---
 
-## Über das Projekt
-
-[![Produkt-Screenshot](https://cdn.velurapictures.de/uploads/minecraft_collage.jpeg)](https://demo01.pengu-network.de)
-
-Dieses Template wurde entwickelt, um Minecraft-Server professionell und einfach zu präsentieren. Es bietet zahlreiche Funktionen und ist vollständig anpassbar.
-
-### Hauptfeatures:
-- **Dynamische Serverinformationen** (Spieleranzahl, MotD)
-- **Smooth-Scrolling** und interaktive Elemente
-- **Anpassbares Design** mit CSS-Variablen
-- **SEO-optimierte Struktur**
-- **Team-Bereich** mit automatisierten Avataren
-
+## 📌 Demo
+🔗 **[Live-Demo ansehen](http://demo01.pengu-network.de)**
 
 ---
 
-## Technologien
+## 📥 Installation
 
-Das Projekt wurde mit folgenden Technologien erstellt:
-
-- **HTML5** – Struktur der Seite
-- **CSS3** – Styling und Layout
-- **JavaScript** – Interaktive Funktionen und API-Integration
-- [MCsrvstat API](https://api.mcsrvstat.us) – Serverdaten
-
-
----
-
-## Erste Schritte
-
-Um das Template lokal einzurichten, folge diesen Schritten:
-
-### Voraussetzungen
-
-1. Ein Webserver (z. B. XAMPP oder ein Hosting-Service)
-2. Basiswissen in HTML, CSS und JavaScript
-
-### Installation
-
-1. Klone das Repository:
+1. **Repository klonen oder herunterladen**
    ```bash
-   git clone https://github.com/matty/minecraft-server-onepager-template.git
+   git clone https://github.com/DEIN-USERNAME/minecraft-server-onepager.git
+   cd minecraft-server-onepager
    ```
-2. Öffne die `index.html` in deinem Browser oder hoste die Dateien auf einem Webserver.
 
+2. **Auf einen Webserver hochladen**  
+   - Entpacke die Dateien und lade sie auf deinen Webserver.
+   - Falls nötig, passe `index.html`, `style.css` und `script.js` an.
 
----
-
-## Verwendung
-
-Bearbeite die folgenden Dateien, um dein Template anzupassen:
-
-1. **Server-IP konfigurieren**: Ändere die Server-IP in `script.js` und `index.html`.
-2. **Farben anpassen**: Passe die CSS-Variablen in `style.css` an.
-3. **Team-Mitglieder hinzufügen**: Füge UUIDs für die Avatare in `index.html` hinzu.
-
-Weitere Anpassungen sind in der [Dokumentation](https://github.com/matty/minecraft-server-onepager-template) beschrieben.
-
+3. **Fertig!** 🚀 Deine Webseite ist nun online.
 
 ---
 
-## Roadmap
+## 🎨 Anpassung
 
-- [x] Live-Serverstatus anzeigen
-- [ ] Mobile Optimierung hinzufügen
-- [ ] Mehrsprachige Unterstützung (Deutsch, Englisch)
-- [ ] Dark Mode Integration
+### 1️⃣ **Grundlegende Änderungen**
+Öffne die Datei **`index.html`** und passe folgende Elemente an:
+- **Servername & Beschreibung** (`<title>`, `<h1>`, `<p>`)
+- **Server-IP** (`play.deinserver.de`)
+- **Links zu Discord, YouTube, TikTok** (im `<a>`-Tag)
+- **Server-Features & Spielmodi** (`<section id="top">`)
 
+### 2️⃣ **Design & Farben**
+Ändere die Farben in **`style.css`**  
+📄 Datei: `assets/css/style.css`  
+- Hauptfarbe: `--primary-color`
+- Hintergrundfarbe: `--background-color`
+- Schriftarten: `font-family: 'Roboto'`
+
+### 3️⃣ **Logo & Banner**
+- **Logo ersetzen:**  
+  Datei **`assets/img/logo.png`** austauschen.
+- **Banner ändern:**  
+  Datei **`assets/img/webbanner.png`** ersetzen.
+
+### 4️⃣ **JavaScript-Funktionen**
+📄 Datei: `assets/js/script.js`  
+- **IP-Kopierfunktion:** `copyServerIp()`
+- **Serverstatus anzeigen:** `loadServerData("play.deinserver.de")`
 
 ---
 
-## Lizenz
-
-Dieses Template ist **kostenlos für den persönlichen Gebrauch** verfügbar.  
-Jegliche Verbreitung oder der Verkauf – auch in abgewandelter Form – sind nur mit Zustimmung des Autors erlaubt.  
-**Das Copyright im Footer muss erhalten bleiben.**  
-
+## 📞 Support & Kontakt
+Hast du Fragen oder benötigst Support? Trete unserem Discord-Server bei!  
+🔗 **[Discord](https://discord.gg/HcqKn7CVN5)**
 
 ---
 
-## Kontakt
-
-**Matty (TheVelu)**  
-[Discord](https://discord.gg/HcqKn7CVN5)  
-[GitHub](https://github.com/matty)  
-
-Projektlink: [Minecraft Server Onepager Template](https://github.com/matty/minecraft-server-onepager-template)
+## 📜 Lizenz
+**© 2025 Matthew Rabiega (TheVelu).**  
+Nur für private und nicht-kommerzielle Nutzung.  
+**Verkauf & erneutes Hochladen verboten!**
 

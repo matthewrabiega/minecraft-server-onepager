@@ -14,8 +14,8 @@ Eine moderne und flexible Webseite für Minecraft-Server. 🏗️ Einfach anzupa
 
 ---
 
-## 📌 Demo
-🔗 [Live-Demo ansehen](http://demo01.pengu-network.de)
+## 📌 Demo  
+🔗 **[Live-Demo ansehen](http://demo01.pengu-network.de)**  
 
 ---
 
@@ -38,22 +38,35 @@ cd minecraft-server-webseite
 ### 📝 HTML (index.html & Unterseiten)
 - **Servername & Beschreibung**: `<title>`, `<h1>`, `<p>`
 - **Server-IP & Statusanzeige**: `play.deinserver.de`
-- **Links zu Discord, YouTube, TikTok**
-- **Teamseite, Credits und weitere Inhalte**
+- **Links zu Discord, YouTube, TikTok, Teamspeak**
+- **Teamseite mit Spielernamen, Rängen und Avataren**
+- **Dynamische Spielmodi-Anzeige (Bedwars, City Build, Sky Wars)**
+- **Serverstatus-Popup mit Spieleranzahl und Icon**
+- **Voting-Funktion für Spielmodi**
+- **Footer mit Impressum und Credits**
 
 ### 🎨 Design (style.css)
-- **Hauptfarbe**: `--primary-color`
-- **Hintergrundfarbe**: `--background-color`
+- **Hauptfarbe**: `--primary-color` (`#ff9800`)
+- **Hintergrundfarbe**: `--background-color` (`#f8f9fa`)
 - **Schriftart**: `font-family: 'Roboto'`
+- **Rangfarben für Teammitglieder**
+  - Administrator: `#ff4500`
+  - Supporter: `#32cd32`
+  - Developer: `#ffd700`
+  - Builder: `#00ced1`
 
 ### 🖼️ Medien
 - **Logo ersetzen**: Datei `assets/img/logo.png`
-- **Banner ersetzen**: Datei `assets/img/webbanner.png`
+- **Hintergrundbilder der Abschnitte (rotierend)**: `bg1.png`, `bg2.png`, `bg3.png`, `bg4.png`
 
 ### ⚙️ JavaScript (script.js)
 - **Server-Status abrufen**: `loadServerData("play.deinserver.de")`
 - **Dynamische Teamseite generieren**: `displayTeamGrid()`
 - **Zufällige Nachrichten anzeigen**: `typeMessage()`
+- **Smooth Scrolling zwischen den Sektionen**
+- **Navigation-Highlighting je nach Scrollposition**
+- **Automatische Bannerrotation mit Serverinfos**
+- **Kopierbare Server-IP per Klick**
 
 ---
 

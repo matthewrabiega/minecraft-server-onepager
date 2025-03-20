@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-  <img src="assets/img/webbanner.png" alt="GitBanner" width="100%">
+  <img src="assets/img/github.jpg" alt="GitBanner" width="100%">
 </p>
 
 Eine moderne und flexible Webseite für Minecraft-Server. 🏗️ Einfach anzupassen, schnell eingerichtet und perfekt, um deinen Server professionell zu präsentieren.

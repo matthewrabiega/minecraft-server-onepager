@@ -1,4 +1,4 @@
-# 🛠 Minecraft Server Onepager
+# 🛠 Minecraft Projekt Webseite
 
 <p align="center">
   <img src="assets/img/logo.png" alt="Server Logo" width="150">
@@ -7,10 +7,10 @@
 ---
 
 <p align="center">
-  <img src="assets/img/github.jpg" alt="GitBanner" width="100%">
+  <img src="assets/img/webbanner.png" alt="GitBanner" width="100%">
 </p>
 
-Ein schlankes und modernes Onepager-Template für Minecraft-Server. 🏗️ Einfach einzurichten, flexibel anpassbar und perfekt, um deinen Server ansprechend zu präsentieren.
+Eine moderne und flexible Webseite für Minecraft-Projekte. 🏗️ Einfach anzupassen, schnell eingerichtet und perfekt, um deinen Server oder dein Projekt professionell zu präsentieren.
 
 ---
 
@@ -22,8 +22,8 @@ Ein schlankes und modernes Onepager-Template für Minecraft-Server. 🏗️ Einf
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/matthewrabiega/minecraft-server-onepager.git
-cd minecraft-server-onepager
+git clone https://github.com/matthewrabiega/minecraft-projekt-webseite.git
+cd minecraft-projekt-webseite
 ```
 
 ### ⚙️ Einrichtung
@@ -35,28 +35,29 @@ cd minecraft-server-onepager
 
 ## 🎨 Anpassung
 
-### 📝 HTML (index.html)
-- **Servername & Beschreibung**: `<title>`, `<h1>`, `<p>`
-- **Server-IP**: `play.deinserver.de`
-- **Social-Media-Links**: Discord, YouTube, TikTok
-- **Spielmodi & Features**: `<section id="top">`
+### 📝 HTML (index.html & Unterseiten)
+- **Projektname & Beschreibung**: `<title>`, `<h1>`, `<p>`
+- **Server-IP & Statusanzeige**: `play.deinserver.de`
+- **Links zu Discord, YouTube, TikTok**
+- **Teamseite, Credits und weitere Inhalte**
 
 ### 🎨 Design (style.css)
 - **Hauptfarbe**: `--primary-color`
 - **Hintergrundfarbe**: `--background-color`
-- **Schriftart**: `font-family: 'Roboto'`
+- **Schriftart**: `font-family: 'Minecraft'`
 
 ### 🖼️ Medien
 - **Logo ersetzen**: Datei `assets/img/logo.png`
 
 ### ⚙️ JavaScript (script.js)
-- **IP-Kopierfunktion**: `copyServerIp()`
-- **Serverstatus-Anzeige**: `loadServerData("play.deinserver.de")`
+- **Server-Status abrufen**: `loadServerStatus()`
+- **Dynamische Teamseite generieren**: `displayTeamGrid()`
+- **Zufällige Nachrichten anzeigen**: `typeMessage()`
 
 ---
 
 ## 📞 Support & Kontakt
-Hast du Fragen oder benötigst Hilfe? ✉️ Trete unserem Discord-Server bei klicke auf [beitreten](https://discord.gg/HcqKn7CVN5)
+Hast du Fragen oder benötigst Hilfe? ✉️ Trete unserem Discord-Server bei, klicke auf [beitreten](https://discord.gg/HcqKn7CVN5)
 
 ---
 
@@ -64,4 +65,3 @@ Hast du Fragen oder benötigst Hilfe? ✉️ Trete unserem Discord-Server bei kl
 © 2025 **Matthew Rabiega (TheVelu)**  
 🔒 Dieses Template ist für den privaten und nicht-kommerziellen Gebrauch vorgesehen.  
 🚫 Verkauf oder erneutes Hochladen ist nicht gestattet.
-

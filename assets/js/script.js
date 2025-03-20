@@ -3,16 +3,13 @@ let isScrolling = false;
 document.addEventListener("DOMContentLoaded", () => {
     setupNavigation();
     setupScrollObserver();
-
     setupBannerRotation();
-
     setupServerPopup();
-
     loadServerData("play.deinserver.de");
-
     setupSmoothScroll();
 
-    document.getElementById("serverIp")?.addEventListener("click", copyServerIp);
+    const serverIpElement = document.getElementById("serverIp");
+    serverIpElement?.addEventListener("click", copyServerIp);
 });
 
 function setupNavigation() {
@@ -25,6 +22,7 @@ function setupNavigation() {
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.offsetHeight;
+
             if (window.scrollY >= sectionTop - sectionHeight / 3) {
                 currentSection = section.getAttribute("id");
             }

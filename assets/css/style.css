@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/font/Roboto-Bold.ttf') format('truetype');
+    src: url('../font/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/font/Roboto-Light.ttf') format('truetype');
+    src: url('../font/Roboto-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/font/Roboto-Medium.ttf') format('truetype');
+    src: url('../font/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -26,11 +26,13 @@
 :root {
     --primary-color: #ff9800;
     --primary-hover-color: #e68900;
+    
     --text-color: #fcfcfc;
     --undertext-color: #e4e4e4;
     --dark-text-color: #313131;
     --dark-undertext-color: #3d3d3d;
     --background-color: #f8f9fa;
+
     --rank-admin: #ff4500;
     --rank-builder: #00ced1;
     --rank-developer: #ffd700;
@@ -38,43 +40,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-
-::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-    border: none;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-hover-color);
-}
-
-::-webkit-scrollbar-thumb:active {
-    background: var(--primary-hover-color);
-}
-
-::-webkit-scrollbar-track {
-    background: #ebebeb;
-    border: none;
-}
-
-::-webkit-scrollbar-track:hover {
-    background: #dfdfdf;
-}
-
-::-webkit-scrollbar-track:active {
-    background: #ebebeb;
-}
-
-::-webkit-scrollbar-corner {
-    background: transparent;
+    display: none;
 }
 
 body {
@@ -82,6 +48,8 @@ body {
     font-family: 'Roboto';
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-y: auto;
     background-color: var(--background-color);
 }

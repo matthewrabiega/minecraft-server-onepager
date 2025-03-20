@@ -1,4 +1,4 @@
-# 🛠 Minecraft Projekt Webseite
+# 🛠 Minecraft Server Webseite
 
 <p align="center">
   <img src="assets/img/logo.png" alt="Server Logo" width="150">
@@ -7,10 +7,10 @@
 ---
 
 <p align="center">
-  <img src="assets/img/github.jpg" alt="GitBanner" width="100%">
+  <img src="assets/img/webbanner.png" alt="GitBanner" width="100%">
 </p>
 
-Eine moderne und flexible Webseite für Minecraft-Projekte. 🏗️ Einfach anzupassen, schnell eingerichtet und perfekt, um deinen Server oder dein Projekt professionell zu präsentieren.
+Eine moderne und flexible Webseite für Minecraft-Server. 🏗️ Einfach anzupassen, schnell eingerichtet und perfekt, um deinen Server professionell zu präsentieren.
 
 ---
 
@@ -22,8 +22,8 @@ Eine moderne und flexible Webseite für Minecraft-Projekte. 🏗️ Einfach anzu
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/matthewrabiega/minecraft-projekt-webseite.git
-cd minecraft-projekt-webseite
+git clone https://github.com/matthewrabiega/minecraft-server-webseite.git
+cd minecraft-server-webseite
 ```
 
 ### ⚙️ Einrichtung
@@ -36,7 +36,7 @@ cd minecraft-projekt-webseite
 ## 🎨 Anpassung
 
 ### 📝 HTML (index.html & Unterseiten)
-- **Projektname & Beschreibung**: `<title>`, `<h1>`, `<p>`
+- **Servername & Beschreibung**: `<title>`, `<h1>`, `<p>`
 - **Server-IP & Statusanzeige**: `play.deinserver.de`
 - **Links zu Discord, YouTube, TikTok**
 - **Teamseite, Credits und weitere Inhalte**
@@ -44,13 +44,14 @@ cd minecraft-projekt-webseite
 ### 🎨 Design (style.css)
 - **Hauptfarbe**: `--primary-color`
 - **Hintergrundfarbe**: `--background-color`
-- **Schriftart**: `font-family: 'Minecraft'`
+- **Schriftart**: `font-family: 'Roboto'`
 
 ### 🖼️ Medien
 - **Logo ersetzen**: Datei `assets/img/logo.png`
+- **Banner ersetzen**: Datei `assets/img/webbanner.png`
 
 ### ⚙️ JavaScript (script.js)
-- **Server-Status abrufen**: `loadServerStatus()`
+- **Server-Status abrufen**: `loadServerData("play.deinserver.de")`
 - **Dynamische Teamseite generieren**: `displayTeamGrid()`
 - **Zufällige Nachrichten anzeigen**: `typeMessage()`
 
@@ -65,3 +66,4 @@ Hast du Fragen oder benötigst Hilfe? ✉️ Trete unserem Discord-Server bei, k
 © 2025 **Matthew Rabiega (TheVelu)**  
 🔒 Dieses Template ist für den privaten und nicht-kommerziellen Gebrauch vorgesehen.  
 🚫 Verkauf oder erneutes Hochladen ist nicht gestattet.
+

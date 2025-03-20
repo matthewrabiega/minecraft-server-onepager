@@ -6,7 +6,7 @@
 
 ---
 
-![Webbanner](assets/img/webbanner.png)
+![Webbanner](assets/img/github.jpg)
 
 **Ein minimalistisches und einfach anpassbares Onepager-Template für Minecraft-Server.**  
 Ideal für eine schnelle Präsentation deines Servers mit IP, Features und Teamübersicht.
